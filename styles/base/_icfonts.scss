@@ -1,33 +1,3 @@
-/* Fonts ------------------------------------------------------ */
-
-@font-face {
-  font-family: Pretendard;
-  src: url('./assets/fonts/Pretendard-Bold.otf');
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: Pretendard;
-  src: url('./assets/fonts/Pretendard-SemiBold.otf');
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: Pretendard;
-  src: url('./assets/fonts/Pretendard-Medium.otf');
-  font-weight: 500;
-}
-
-h1 {
-  font-family: 'Pretendard', sans-serif;
-}
-
-h2 {
-  font-family: 'Noto Sans KR', sans-serif;
-}
-
-/* Icon Fonts  ---------------------------------------------- */
-
 @font-face {
   font-family: 'ohouse';
   src: url('./assets/icfonts/ohouse.eot');
@@ -48,6 +18,7 @@ i {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -56,63 +27,48 @@ i {
 .ic-bell:before {
   content: '\e900';
 }
-
 .ic-bookmark:before {
   content: '\e901';
 }
-
 .ic-bookmark-filled:before {
   content: '\e902';
 }
-
 .ic-caret:before {
   content: '\e903';
 }
-
 .ic-cart:before {
   content: '\e904';
 }
-
 .ic-check:before {
   content: '\e905';
 }
-
 .ic-chevron:before {
   content: '\e906';
 }
-
 .ic-close:before {
   content: '\e907';
 }
-
 .ic-community:before {
   content: '\e908';
 }
-
 .ic-expert:before {
   content: '\e909';
 }
-
 .ic-lock:before {
   content: '\e90a';
 }
-
 .ic-menu:before {
   content: '\e90b';
 }
-
 .ic-new:before {
   content: '\e90c';
 }
-
 .ic-search:before {
   content: '\e90d';
 }
-
 .ic-star:before {
   content: '\e90e';
 }
-
 .ic-store:before {
   content: '\e90f';
 }

@@ -1,7 +1,10 @@
-p {
-  color: blue;
+@import './base/icfonts';
+@import './base/fonts';
+
+h1 {
+  font-family: 'Pretendard', sans-serif;
 }
 
-p {
-  font: 100;
+h2 {
+  font-family: 'Noto Sans KR', sans-serif;
 }
